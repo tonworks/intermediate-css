@@ -23,3 +23,20 @@
     padding: 2%;
     width: 25%;
 }
+
+.bio-wrapper {
+    background-color: aquamarine;
+    font-size: 24px;
+    height: 600px;
+    overflow: scroll;
+/*    overflow: hidden;  */
+}
+
+.bio-wrapper:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: "";
+    clear: both;
+    height: 0;
+}
