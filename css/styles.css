@@ -11,4 +11,5 @@
 
 .test-box-sizing {
     box-sizing: border-box;
+    width: auto;
 }
